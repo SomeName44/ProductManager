@@ -3,7 +3,7 @@ package ru.netology.pro;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.netology.pro.*;
+
 
 public class ProductTest {
     private ProductRepository repo = new ProductRepository();

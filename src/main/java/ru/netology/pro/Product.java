@@ -40,7 +40,7 @@ public class Product {
     }
 
     public boolean matches(String search) {
-        return getName().contains(search);
+        return (getName().contains(search));
     }
 
 }

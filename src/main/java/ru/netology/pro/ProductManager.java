@@ -12,6 +12,9 @@ public class ProductManager {
     public void add(Product items) {
         repo.save(items);
     }
+    public void removeById(int id) {
+        repo.removeById(id);
+    }
 
     public Product[] searchBy(String text) {
         Product[] result = new Product[0];
